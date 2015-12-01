@@ -1,0 +1,21 @@
+//
+//  utility.pch
+//  CodingPlatform
+//
+//  Created by Jerry on 15/12/1.
+//  Copyright © 2015年 Jerry. All rights reserved.
+//
+
+#ifndef utility_pch
+#define utility_pch
+
+#define RandomValue     arc4random()%256/255.0
+#define RandomColor     [UIColor colorWithRed:RandomValue green:RandomValue blue:RandomValue alpha:1.0]
+#define BottomColor     [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1.0]
+#define DefaultColor    [UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:1.0]
+#define BarTintColor    [UIColor colorWithRed:40/255.0 green:49/255.0 blue:59/255.0 alpha:1.0]
+
+#define VIEW_WIDTH      self.view.frame.size.width
+#define VIEW_HEIGHT     self.view.frame.size.height
+
+#endif /* utility_pch */

@@ -12,6 +12,22 @@
 		C4D721861C0C99E700BEA80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D721851C0C99E700BEA80A /* Assets.xcassets */; };
 		C4D721891C0C99E700BEA80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D721871C0C99E700BEA80A /* LaunchScreen.storyboard */; };
 		C4D721951C0C9A8500BEA80A /* JYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721941C0C9A8500BEA80A /* JYTabBarController.m */; };
+		C4D721EC1C0DD58A00BEA80A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721EB1C0DD58A00BEA80A /* BaseViewController.m */; };
+		C4D721EF1C0DD6B500BEA80A /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721EE1C0DD6B500BEA80A /* ProjectViewController.m */; };
+		C4D721F21C0DD6C100BEA80A /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721F11C0DD6C100BEA80A /* TaskViewController.m */; };
+		C4D721F51C0DD6D100BEA80A /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721F41C0DD6D100BEA80A /* TweetViewController.m */; };
+		C4D721F81C0DD6E200BEA80A /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721F71C0DD6E200BEA80A /* MessageViewController.m */; };
+		C4D721FB1C0DD6EC00BEA80A /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D721FA1C0DD6EC00BEA80A /* MeViewController.m */; };
+		C4D722081C0DD7D300BEA80A /* me_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D721FE1C0DD7D300BEA80A /* me_normal@2x.png */; };
+		C4D722091C0DD7D300BEA80A /* me_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D721FF1C0DD7D300BEA80A /* me_selected@2x.png */; };
+		C4D7220A1C0DD7D300BEA80A /* message_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722001C0DD7D300BEA80A /* message_normal@2x.png */; };
+		C4D7220B1C0DD7D300BEA80A /* message_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722011C0DD7D300BEA80A /* message_selected@2x.png */; };
+		C4D7220C1C0DD7D300BEA80A /* project_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722021C0DD7D300BEA80A /* project_normal@2x.png */; };
+		C4D7220D1C0DD7D300BEA80A /* project_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722031C0DD7D300BEA80A /* project_selected@2x.png */; };
+		C4D7220E1C0DD7D300BEA80A /* task_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722041C0DD7D300BEA80A /* task_normal@2x.png */; };
+		C4D7220F1C0DD7D300BEA80A /* task_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722051C0DD7D300BEA80A /* task_selected@2x.png */; };
+		C4D722101C0DD7D300BEA80A /* tweet_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722061C0DD7D300BEA80A /* tweet_normal@2x.png */; };
+		C4D722111C0DD7D300BEA80A /* tweet_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D722071C0DD7D300BEA80A /* tweet_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,29 @@
 		C4D7218A1C0C99E700BEA80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D721931C0C9A8500BEA80A /* JYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarController.h; sourceTree = "<group>"; };
 		C4D721941C0C9A8500BEA80A /* JYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarController.m; sourceTree = "<group>"; };
+		C4D721E81C0DD24500BEA80A /* utility.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.pch; sourceTree = "<group>"; };
+		C4D721EA1C0DD58A00BEA80A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C4D721EB1C0DD58A00BEA80A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C4D721ED1C0DD6B500BEA80A /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		C4D721EE1C0DD6B500BEA80A /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		C4D721F01C0DD6C100BEA80A /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		C4D721F11C0DD6C100BEA80A /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		C4D721F31C0DD6D100BEA80A /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		C4D721F41C0DD6D100BEA80A /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		C4D721F61C0DD6E200BEA80A /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		C4D721F71C0DD6E200BEA80A /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		C4D721F91C0DD6EC00BEA80A /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		C4D721FA1C0DD6EC00BEA80A /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		C4D721FE1C0DD7D300BEA80A /* me_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_normal@2x.png"; sourceTree = "<group>"; };
+		C4D721FF1C0DD7D300BEA80A /* me_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_selected@2x.png"; sourceTree = "<group>"; };
+		C4D722001C0DD7D300BEA80A /* message_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_normal@2x.png"; sourceTree = "<group>"; };
+		C4D722011C0DD7D300BEA80A /* message_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_selected@2x.png"; sourceTree = "<group>"; };
+		C4D722021C0DD7D300BEA80A /* project_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project_normal@2x.png"; sourceTree = "<group>"; };
+		C4D722031C0DD7D300BEA80A /* project_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project_selected@2x.png"; sourceTree = "<group>"; };
+		C4D722041C0DD7D300BEA80A /* task_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "task_normal@2x.png"; sourceTree = "<group>"; };
+		C4D722051C0DD7D300BEA80A /* task_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "task_selected@2x.png"; sourceTree = "<group>"; };
+		C4D722061C0DD7D300BEA80A /* tweet_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tweet_normal@2x.png"; sourceTree = "<group>"; };
+		C4D722071C0DD7D300BEA80A /* tweet_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tweet_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +95,13 @@
 		C4D7217E1C0C99E700BEA80A /* CodingPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				C4D721FC1C0DD7D300BEA80A /* resource */,
+				C4D721E91C0DD56F00BEA80A /* Controllers */,
 				C4D721931C0C9A8500BEA80A /* JYTabBarController.h */,
 				C4D721941C0C9A8500BEA80A /* JYTabBarController.m */,
 				C4D721821C0C99E700BEA80A /* AppDelegate.h */,
 				C4D721831C0C99E700BEA80A /* AppDelegate.m */,
+				C4D721E81C0DD24500BEA80A /* utility.pch */,
 				C4D721851C0C99E700BEA80A /* Assets.xcassets */,
 				C4D721871C0C99E700BEA80A /* LaunchScreen.storyboard */,
 				C4D7218A1C0C99E700BEA80A /* Info.plist */,
@@ -74,6 +116,50 @@
 				C4D721801C0C99E700BEA80A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4D721E91C0DD56F00BEA80A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4D721EA1C0DD58A00BEA80A /* BaseViewController.h */,
+				C4D721EB1C0DD58A00BEA80A /* BaseViewController.m */,
+				C4D721ED1C0DD6B500BEA80A /* ProjectViewController.h */,
+				C4D721EE1C0DD6B500BEA80A /* ProjectViewController.m */,
+				C4D721F01C0DD6C100BEA80A /* TaskViewController.h */,
+				C4D721F11C0DD6C100BEA80A /* TaskViewController.m */,
+				C4D721F31C0DD6D100BEA80A /* TweetViewController.h */,
+				C4D721F41C0DD6D100BEA80A /* TweetViewController.m */,
+				C4D721F61C0DD6E200BEA80A /* MessageViewController.h */,
+				C4D721F71C0DD6E200BEA80A /* MessageViewController.m */,
+				C4D721F91C0DD6EC00BEA80A /* MeViewController.h */,
+				C4D721FA1C0DD6EC00BEA80A /* MeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C4D721FC1C0DD7D300BEA80A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C4D721FD1C0DD7D300BEA80A /* tabbar */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		C4D721FD1C0DD7D300BEA80A /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C4D721FE1C0DD7D300BEA80A /* me_normal@2x.png */,
+				C4D721FF1C0DD7D300BEA80A /* me_selected@2x.png */,
+				C4D722001C0DD7D300BEA80A /* message_normal@2x.png */,
+				C4D722011C0DD7D300BEA80A /* message_selected@2x.png */,
+				C4D722021C0DD7D300BEA80A /* project_normal@2x.png */,
+				C4D722031C0DD7D300BEA80A /* project_selected@2x.png */,
+				C4D722041C0DD7D300BEA80A /* task_normal@2x.png */,
+				C4D722051C0DD7D300BEA80A /* task_selected@2x.png */,
+				C4D722061C0DD7D300BEA80A /* tweet_normal@2x.png */,
+				C4D722071C0DD7D300BEA80A /* tweet_selected@2x.png */,
+			);
+			path = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +221,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D721861C0C99E700BEA80A /* Assets.xcassets in Resources */,
+				C4D7220C1C0DD7D300BEA80A /* project_normal@2x.png in Resources */,
+				C4D7220F1C0DD7D300BEA80A /* task_selected@2x.png in Resources */,
+				C4D722091C0DD7D300BEA80A /* me_selected@2x.png in Resources */,
+				C4D7220D1C0DD7D300BEA80A /* project_selected@2x.png in Resources */,
+				C4D7220A1C0DD7D300BEA80A /* message_normal@2x.png in Resources */,
+				C4D7220B1C0DD7D300BEA80A /* message_selected@2x.png in Resources */,
 				C4D721891C0C99E700BEA80A /* LaunchScreen.storyboard in Resources */,
+				C4D722081C0DD7D300BEA80A /* me_normal@2x.png in Resources */,
+				C4D7220E1C0DD7D300BEA80A /* task_normal@2x.png in Resources */,
+				C4D722101C0DD7D300BEA80A /* tweet_normal@2x.png in Resources */,
+				C4D722111C0DD7D300BEA80A /* tweet_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D721FB1C0DD6EC00BEA80A /* MeViewController.m in Sources */,
+				C4D721F51C0DD6D100BEA80A /* TweetViewController.m in Sources */,
 				C4D721841C0C99E700BEA80A /* AppDelegate.m in Sources */,
+				C4D721F21C0DD6C100BEA80A /* TaskViewController.m in Sources */,
+				C4D721EC1C0DD58A00BEA80A /* BaseViewController.m in Sources */,
 				C4D721811C0C99E700BEA80A /* main.m in Sources */,
 				C4D721951C0C9A8500BEA80A /* JYTabBarController.m in Sources */,
+				C4D721F81C0DD6E200BEA80A /* MessageViewController.m in Sources */,
+				C4D721EF1C0DD6B500BEA80A /* ProjectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +354,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CodingPlatform/utility.pch";
 				INFOPLIST_FILE = CodingPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.1000phone.com.CodingPlatform;
@@ -263,6 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CodingPlatform/utility.pch";
 				INFOPLIST_FILE = CodingPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.1000phone.com.CodingPlatform;
@@ -289,6 +395,7 @@
 				C4D7218F1C0C99E700BEA80A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
