@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    //添加导航条上的左右item
+    [self addItemWithImage:@"addUserBtn_Nav" target:self action:@selector(addUserHandler) isLeft:YES];
+    [self addItemWithImage:@"settingBtn_Nav" target:self action:@selector(settingHandler) isLeft:NO];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addUserHandler
+{
+    NSLog(@"点击添加用户按钮");
 }
-*/
+
+- (void)settingHandler
+{
+    NSLog(@"点击设置按钮");
+}
 
 @end

@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = DefaultColor;
+    //添加标题视图
+    [self addTitleViewWithTitle:self.navigationItem.title];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,14 +27,26 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addTitleViewWithTitle:(NSString *)title
+{
+    UILabel *label = [[UILabel alloc] init];
+    label.text = title;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont systemFontOfSize:20];
+    label.textColor = [UIColor whiteColor];
+    label.frame = CGRectMake(0, 0, 50, 44);
+    self.navigationItem.titleView = label;
 }
-*/
+
+- (void)addItemWithImage:(NSString *)image target:(id)target action:(SEL)action isLeft:(BOOL)isLeft
+{
+    UIImage *originImage = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithImage:originImage style:UIBarButtonItemStylePlain target:target action:action];
+    if (isLeft) {
+        self.navigationItem.leftBarButtonItem = item;
+    } else {
+        self.navigationItem.rightBarButtonItem = item;
+    }
+}
 
 @end

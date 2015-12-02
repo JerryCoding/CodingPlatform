@@ -10,4 +10,7 @@
 
 @interface BaseViewController : UIViewController
 
+- (void)addTitleViewWithTitle:(NSString *)title;
+- (void)addItemWithImage:(NSString *)image target:(id)target action:(SEL)action isLeft:(BOOL)isLeft;
+
 @end
