@@ -26,7 +26,6 @@
     [UITabBar appearance].backgroundColor = BottomColor;
     //设置tabBar选中标题色
     [UITabBar appearance].tintColor = BarTintColor;
-    
     //创建子视图控制器
     [self createChildViewControllers];
 }
@@ -52,6 +51,7 @@
         BaseViewController *bvc = [[cls alloc] init];
         //设置在导航条上显示标题
         bvc.navigationItem.title = info[1];
+
         //根据视图控制器创建导航控制器
         UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:bvc];
         //设置导航控制的tabBarItem
