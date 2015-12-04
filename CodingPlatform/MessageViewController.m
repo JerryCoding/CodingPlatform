@@ -49,12 +49,36 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
+    //隐藏多余的cell分割线
+    UIView *view =[ [UIView alloc]init];
+    view.backgroundColor = [UIColor clearColor];
+    self.tableView.tableFooterView = view;
+    
+    //设置分割线边界(默认左边有15像素，若有图片则会更大于15)
+    self.tableView.layoutMargins = UIEdgeInsetsMake(0, 0, 0, 0);
+    
     [self.view addSubview:self.tableView];
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //只有在显示指定cell时才将分割线设置满屏
+    if (indexPath.row == 2) {
+        cell.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        cell.layoutMargins = UIEdgeInsetsMake(0, 0, 0, 0);
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.dataSource.count;
+    NSInteger count = (NSInteger)self.dataSource.count;
+    //隐藏多余cell的分割线时可能出错
+    if (count == 0) {
+        tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    } else {
+        tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    }
+    return count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -68,7 +92,6 @@
     }
     cell.textLabel.text = self.dataSource[indexPath.row][0];
     cell.imageView.image = [UIImage imageNamed:self.dataSource[indexPath.row][1]];
-    
     return cell;
 }
 
