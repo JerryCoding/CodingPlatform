@@ -174,6 +174,15 @@
 			name = project;
 			sourceTree = "<group>";
 		};
+		C42514D21C171ABA002D5B3B /* tweet */ = {
+			isa = PBXGroup;
+			children = (
+				C4D721F31C0DD6D100BEA80A /* TweetViewController.h */,
+				C4D721F41C0DD6D100BEA80A /* TweetViewController.m */,
+			);
+			name = tweet;
+			sourceTree = "<group>";
+		};
 		C4D721731C0C99E700BEA80A = {
 			isa = PBXGroup;
 			children = (
@@ -220,14 +229,13 @@
 			isa = PBXGroup;
 			children = (
 				C42514D11C170AC8002D5B3B /* project */,
+				C42514D21C171ABA002D5B3B /* tweet */,
 				C418936A1C10894100794ECE /* me */,
 				C418935D1C10854E00794ECE /* message */,
 				C4D721EA1C0DD58A00BEA80A /* BaseViewController.h */,
 				C4D721EB1C0DD58A00BEA80A /* BaseViewController.m */,
 				C4D721F01C0DD6C100BEA80A /* TaskViewController.h */,
 				C4D721F11C0DD6C100BEA80A /* TaskViewController.m */,
-				C4D721F31C0DD6D100BEA80A /* TweetViewController.h */,
-				C4D721F41C0DD6D100BEA80A /* TweetViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
